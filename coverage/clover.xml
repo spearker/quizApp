@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1640161373500" clover="3.2.0">
+  <project timestamp="1640161373500" name="All files">
+    <metrics statements="21" coveredstatements="21" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="7" elements="29" coveredelements="28" complexity="0" loc="21" ncloc="21" packages="5" files="6" classes="6"/>
+    <package name="quizApp">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="App.tsx" path="/Users/user/Desktop/personalProject/quizApp/App.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="quizApp.src.Component.Button">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="MenuButton.tsx" path="/Users/user/Desktop/personalProject/quizApp/src/Component/Button/MenuButton.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="7" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="quizApp.src.Containers">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
+      <file name="Main.tsx" path="/Users/user/Desktop/personalProject/quizApp/src/Containers/Main.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+      </file>
+      <file name="Question.tsx" path="/Users/user/Desktop/personalProject/quizApp/src/Containers/Question.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="quizApp.src.Navigation">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="RootNavigator.tsx" path="/Users/user/Desktop/personalProject/quizApp/src/Navigation/RootNavigator.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="quizApp.utils">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="fetchQuiz.ts" path="/Users/user/Desktop/personalProject/quizApp/utils/fetchQuiz.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
