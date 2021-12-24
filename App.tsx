@@ -1,13 +1,15 @@
 
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
-
-import Profile from "./src/Profile";
+import { StyleSheet, View } from "react-native";
+import RootNavigator from './src/Navigation/RootNavigator'
+import {NavigationContainer} from '@react-navigation/native'
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <Profile userName={"samslow"} name={"서현석"} />
+      <NavigationContainer>
+        <RootNavigator/>
+      </NavigationContainer>
     </View>
   );
 };
@@ -17,7 +19,5 @@ export default App;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
   },
 });
